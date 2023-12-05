@@ -7,7 +7,7 @@ fun main(args: Array<String>) {
     //VARIABLES MUTABLES
     var mutable: String= "Vicente";
     //USAR PREFERIBLEMENTE VAL>VAR
-    //check git Intel
+    //check git Intel again
     //Duck typing
     var ejemploVariable="Jhonattan Amagua"//asume que es un String
     val edadEjemplo: Int=12;
