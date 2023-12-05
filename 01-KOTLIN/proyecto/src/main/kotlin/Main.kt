@@ -92,6 +92,7 @@ class Suma( // Constructor Primario Suma
         this.numeroUno
         this.numeroDos
     }
+    //add comment
     constructor( // Segundo constructor
         uno: Int?, // Parametros
         dos: Int // Parametros
