@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="holaMundo">Hello World landscape</string>
+    <color name="colorBackG" translatable="true">#FF0000</color>
+    <color name="colorText" translatable="true">#000</color>
+</resources>

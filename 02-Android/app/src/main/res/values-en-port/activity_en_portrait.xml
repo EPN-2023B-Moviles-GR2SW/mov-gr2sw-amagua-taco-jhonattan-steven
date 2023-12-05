@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="holaMundo">Hellow World portrait</string>
+    <color name="colorText" translatable="true">#FF9562</color>
+    <color name="colorBackG" translatable="true">#FF2788EE</color>
+</resources>
