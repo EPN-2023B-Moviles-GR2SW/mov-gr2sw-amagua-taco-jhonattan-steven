@@ -60,14 +60,10 @@ Producto: Habit Generator
 |Quiero| tener la capacidad de comentar porque falle ese día determinado|
 |Para| identificar el problema que me incita a fallar|
 
-## LOGIN VIEW
-![Login](Images/Login.png)
-## DASHBOARD VIEW
-![Dashboard](Images/Dashboard.png)
-## PROGRESS VIEW
-![Progress View](Images/ProgressView.png)
-## CALENDAR VIEW
-![Calendar](Images/Calendar.png)
+
+|CALENDAR VIEW| LOGIN VIEW|DASHBOARD VIEW|PROGRESS VIEW|CALENDAR VIEW|
+|-------------|-----------|--------------|-------------|-------------|
+|![Calendar](Images/Calendar.png)|![Login](Images/Login.png)|![Dashboard](Images/Dashboard.png)|![Progress View](Images/ProgressView.png)|![Calendar](Images/Calendar.png)|
 ## DATABASE DIAGRAM
 Diagrama de base de datos:
 
