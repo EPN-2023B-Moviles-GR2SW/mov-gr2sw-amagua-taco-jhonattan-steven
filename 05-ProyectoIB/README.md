@@ -61,14 +61,14 @@ Producto: Habit Generator
 |Para| identificar el problema que me incita a fallar|
 
 ## LOGIN VIEW
-![Login](./Images/Login.png)
+![Login](Images/Login.png)
 ## DASHBOARD VIEW
-![Dashboard](./Images/Dashboard.png)
+![Dashboard](Images/Dashboard.png)
 ## PROGRESS VIEW
-![Progress View](./Images/ProgressView.png)
+![Progress View](Images/ProgressView.png)
 ## CALENDAR VIEW
-![Calendar](./Images/Calendar.png)
+![Calendar](Images/Calendar.png)
 ## DATABASE DIAGRAM
 Diagrama de base de datos:
 
-![Diagrama BD](./Images/DiagramaBD.png)
+![Diagrama BD](Images/DiagramaBD.png)
