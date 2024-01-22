@@ -60,6 +60,7 @@ Producto: Habit Generator
 |Quiero| tener la capacidad de comentar porque falle ese día determinado|
 |Para| identificar el problema que me incita a fallar|
 
+## Interfaces Propuestos
 
 | LOGIN VIEW|DASHBOARD VIEW|PROGRESS VIEW|CALENDAR VIEW|
 |-----------|--------------|-------------|-------------|
