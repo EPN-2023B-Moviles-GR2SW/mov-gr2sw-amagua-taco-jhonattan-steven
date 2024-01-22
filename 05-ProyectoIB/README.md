@@ -61,9 +61,9 @@ Producto: Habit Generator
 |Para| identificar el problema que me incita a fallar|
 
 
-|CALENDAR VIEW| LOGIN VIEW|DASHBOARD VIEW|PROGRESS VIEW|CALENDAR VIEW|
-|-------------|-----------|--------------|-------------|-------------|
-|![Calendar](Images/Calendar.png)|![Login](Images/Login.png)|![Dashboard](Images/Dashboard.png)|![Progress View](Images/ProgressView.png)|![Calendar](Images/Calendar.png)|
+| LOGIN VIEW|DASHBOARD VIEW|PROGRESS VIEW|CALENDAR VIEW|
+|-----------|--------------|-------------|-------------|
+|![Login](Images/Login.png)|![Dashboard](Images/Dashboard.png)|![Progress View](Images/ProgressView.png)|![Calendar](Images/Calendar.png)|
 ## DATABASE DIAGRAM
 Diagrama de base de datos:
 
