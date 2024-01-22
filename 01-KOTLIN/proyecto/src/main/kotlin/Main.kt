@@ -109,15 +109,17 @@ class Suma( // Constructor Primario Suma
         if(dos == null) 0 else dos,
     )
 }
-
+//void -> Unit
 fun imprimirNombre(nombre: String): Unit{
     println("Nombre: ${nombre}")
 }
 //last comment
 fun calcularSueldo (
-    sueldo: Double,
-    tasa: Double= 12.0,
-    bonoEspecial: Double?=null, ): Double{
+    sueldo: Double,// paramaetro requerido
+    tasa: Double= 12.0,//parametroOpciona(defecto) ES DECIR Si no se pone ningun valor, se asigna por defecto en este caso el valor de 12
+    bonoEspecial: Double?=null, //Permite que esta variable pueda ser o Double o puede tener el valor null, y esta variable nos obliga a diferenciar es decir no es
+    //posible operar asumiendo que siempre sera doble porque en algun momento puede ser nulo y generaria error
+    ): Double{
     if(bonoEspecial==null){
         return sueldo*(100/tasa)
     }else{
