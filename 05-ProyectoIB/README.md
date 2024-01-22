@@ -62,6 +62,7 @@ Producto: Habit Generator
 
 ## Interfaces Propuestos
 
+
 | LOGIN VIEW|DASHBOARD VIEW|PROGRESS VIEW|CALENDAR VIEW|
 |-----------|--------------|-------------|-------------|
 |![Login](Images/Login.png)|![Dashboard](Images/Dashboard.png)|![Progress View](Images/ProgressView.png)|![Calendar](Images/Calendar.png)|
