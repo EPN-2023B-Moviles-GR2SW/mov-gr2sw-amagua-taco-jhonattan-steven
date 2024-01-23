@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.UpdateLibroActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_form_update_libro"
+        android:layout_width="337dp"
+        android:layout_height="526dp"
+        android:layout_marginTop="60dp"
+        android:background="@color/text_color_white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cl_title_update_sucursal">
+
+        <EditText
+            android:id="@+id/pt_update_title"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="Titulo"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/pt_libro_update_fecha_publicacion"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Fecha publicacion"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.529"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pt_update_title" />
+
+        <EditText
+            android:id="@+id/pt_libro_update_precio"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Precio"
+            android:inputType="number|numberDecimal|numberSigned"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.529"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pt_libro_update_fecha_publicacion" />
+
+        <EditText
+            android:id="@+id/pt_libro_update_numero_paginas"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:hint="Número de paginas"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="@+id/pt_libro_update_precio"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/pt_libro_update_precio"
+            app:layout_constraintTop_toBottomOf="@+id/pt_libro_update_precio" />
+
+        <TextView
+            android:id="@+id/tv_select_update_autor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Autor"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.045"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pt_libro_update_numero_paginas" />
+
+        <Button
+            android:id="@+id/btn_update_libro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@color/primary_color"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Guardar Cambios"
+            android:textColor="@color/button_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/pt_autor_title" />
+
+        <EditText
+            android:id="@+id/pt_autor_title"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="4dp"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_select_update_autor" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_title_update_sucursal"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="@color/primary_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/ib_go_back_update_libro_to_libro_list"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="4dp"
+            android:background="@android:color/transparent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.461"
+            app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+        <TextView
+            android:id="@+id/tv_update_libro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/update_sucursal_title"
+            android:textColor="@color/text_color_white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.405"
+            app:layout_constraintStart_toEndOf="@+id/ib_go_back_update_libro_to_libro_list"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.476" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
