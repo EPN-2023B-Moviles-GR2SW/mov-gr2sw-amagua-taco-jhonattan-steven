@@ -50,7 +50,7 @@ class Autor(
     var premioNobel: Boolean,
     var libros: ArrayList<Libro> = arrayListOf()
 ) : Serializable
-
+//hola
 
 class Libro(
     var titulo: String,
