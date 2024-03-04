@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name" translatable="false">B2023gr2sw</string>
     <string name="title_activity_aresourses" translatable="false">Aresourses</string>
-    <string name="saludo">Buenos dias</string>
+    <string name="saludo" translatable="false">Buenos dias</string>
     <string name="holaMundo">Buenas noches</string>
+    <string-array name="string_array_opciones_dialogo">
+        <item>Lunes</item>
+        <item>Martes</item>
+        <item>Miercoles</item>
+    </string-array>
 </resources>
