@@ -74,7 +74,9 @@ Snackbar.make(findViewById(R.id.id_layout_main),
         super.onCreate(savedInstanceState)
 
         setContentView(R.layout.activity_main)
-
+        EBaseDeDatos.tablaEntrenador = ESquliteHelperEntrenador(
+            this
+        )
 
         val botonCicloVida = findViewById<Button>(R.id.btn_ciclo_vida)
         botonCicloVida.setOnClickListener{
@@ -97,6 +99,10 @@ Snackbar.make(findViewById(R.id.id_layout_main),
         val botonIntentExplicito = findViewById<Button>(R.id.btn_ir_intent_explicito)
         botonIntentExplicito.setOnClickListener{
             abrirActividadConParametros(CIntentExplicitoParametros::class.java)
+        }
+        val botonSqlite = findViewById<Button>(R.id.btn_sqlite)
+        botonSqlite.setOnClickListener{
+            irActividad(ECrudEntrenador::class.java)
         }
 
 
