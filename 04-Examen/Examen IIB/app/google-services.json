@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "216905044157",
+    "project_id": "examenmoviles2bimestre",
+    "storage_bucket": "examenmoviles2bimestre.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216905044157:android:28b21c5e4daba80f8727d4",
+        "android_client_info": {
+          "package_name": "com.example.examenjhonattanamagua"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkIFjZJQWQPRqdIAXBm_pFy88Zzs1AhVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

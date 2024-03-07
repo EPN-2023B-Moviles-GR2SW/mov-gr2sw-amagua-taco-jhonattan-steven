@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ExamenJhonattanAmagua</string>
+    <string name="autor_title">Autores</string>
+
+    <string name="create_autor_button">Crear</string>
+    <string name="create_autor_title">Nuevo Autor</string>
+    <string name="update_autor_title">Actualizar Autor</string>
+
+    <string name="create_sucursal_title">Nuevo Libro</string>
+    <string name="update_sucursal_title">Actualizar Libro</string>
+
+    <string name="menu_show_sucursales">Ver Libro</string>
+    <string name="menu_delete">Eliminar</string>
+    <string name="menu_update">Editar</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

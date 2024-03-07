@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.UpdateAutorActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_form_update_autor"
+        android:layout_width="380dp"
+        android:layout_height="414dp"
+        android:layout_marginTop="72dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cl_title">
+
+        <Spinner
+            android:id="@+id/spinner_update_tiene_premio_nobel"
+            android:layout_width="322dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="44dp"
+            app:layout_constraintEnd_toEndOf="@+id/txt_autor_update_nacionalidad"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/txt_autor_update_nacionalidad"
+            app:layout_constraintTop_toBottomOf="@+id/txt_autor_update_nacionalidad" />
+
+        <TextView
+            android:id="@+id/txt_update_tiene_premio_nobel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:text="¿Tiene Pemio Nobel?"
+            app:layout_constraintBottom_toTopOf="@+id/spinner_update_tiene_premio_nobel"
+            app:layout_constraintStart_toStartOf="@+id/spinner_update_tiene_premio_nobel" />
+
+        <EditText
+            android:id="@+id/txt_autor_update_nombre"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="Nombre"
+            android:inputType="textPersonName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_update_supermercado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="@color/primary_color"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="Guardar Cambios"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="@+id/spinner_update_tiene_premio_nobel"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="@+id/spinner_update_tiene_premio_nobel"
+            app:layout_constraintTop_toBottomOf="@+id/spinner_update_tiene_premio_nobel" />
+
+        <EditText
+            android:id="@+id/txt_autor_update_nacionalidad"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="28dp"
+            android:ems="10"
+            android:hint="Nacionalidad"
+            android:inputType="text|textAutoComplete"
+            app:layout_constraintEnd_toEndOf="@+id/txt_autor_update_anioNacimiento"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/txt_autor_update_anioNacimiento"
+            app:layout_constraintTop_toBottomOf="@+id/txt_autor_update_anioNacimiento" />
+
+        <EditText
+            android:id="@+id/txt_autor_update_anioNacimiento"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="28dp"
+            android:ems="10"
+            android:hint="Año de nacimiento"
+            android:inputType="text"
+            app:layout_constraintEnd_toEndOf="@+id/txt_autor_update_nombre"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/txt_autor_update_nombre"
+            app:layout_constraintTop_toBottomOf="@+id/txt_autor_update_nombre" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_title"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@color/primary_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tv_update_autor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/update_autor_title"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.591"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/btn_go_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="#FFFFFF"
+            android:backgroundTint="#00FFFFFF"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/tv_update_autor"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/ic_baseline_arrow_back_24" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
